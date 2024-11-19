@@ -1,0 +1,32 @@
+<Table Name="EmployeeTable">
+  <TableColumns>
+    <TableColumn Width="2.5cm" />
+    <TableColumn Width="2.5cm" />
+    <TableColumn Width="2.5cm" />
+    <TableColumn Width="2.5cm" />
+  </TableColumns>
+  <Details>
+    <TableRow>
+      <TableCell>
+        <Textbox>
+          <Value>=Fields!EmployeeID.Value</Value>
+        </Textbox>
+      </TableCell>
+      <TableCell>
+        <Textbox>
+          <Value>=Fields!FirstName.Value</Value>
+        </Textbox>
+      </TableCell>
+      <TableCell>
+        <Textbox>
+          <Value>=Fields!LastName.Value</Value>
+        </Textbox>
+      </TableCell>
+      <TableCell>
+        <Textbox>
+          <Value>=Fields!SalaryAmount.Value</Value>
+        </Textbox>
+      </TableCell>
+    </TableRow>
+  </Details>
+</Table>
